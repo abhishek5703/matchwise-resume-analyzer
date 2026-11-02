@@ -1,0 +1,15 @@
+DATA ANALYST — ENTRY LEVEL
+
+Role overview
+We are looking for an analytical and curious Data Analyst to help teams turn data into useful business insights. The analyst will work with business users to understand questions, prepare datasets, create dashboards, and communicate findings.
+
+Responsibilities
+- Extract, clean, validate, and analyze datasets using SQL and Python.
+- Build and maintain dashboards and reports in Power BI or Tableau.
+- Use Excel for data checks, pivots, and quick analysis.
+- Apply statistics and exploratory data analysis to identify trends and anomalies.
+- Work with Pandas, NumPy, and visualization libraries where appropriate.
+- Explain insights clearly and collaborate with cross-functional teams.
+
+Required skills
+Python, SQL, Excel, Power BI, Tableau, data analysis, statistics, Pandas, NumPy, communication, and problem solving.

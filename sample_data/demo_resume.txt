@@ -1,0 +1,18 @@
+JORDAN SHARMA
+Aspiring Data Analyst | jordan.sharma@example.com
+
+SUMMARY
+Entry-level analyst with hands-on experience using Python, SQL, Excel, and Power BI to clean data, investigate trends, and build dashboards. Interested in translating business questions into clear, evidence-based recommendations.
+
+PROJECTS
+Retail Sales Analysis Dashboard
+- Used Python, Pandas, and SQL to clean and analyze 18 months of transactional data.
+- Built an interactive Power BI dashboard to track revenue, product performance, and monthly trends.
+- Presented findings and recommendations to a student project team.
+
+Customer Churn Exploration
+- Performed exploratory data analysis using Python, NumPy, and Matplotlib.
+- Applied a Scikit-learn classification model as a baseline experiment and evaluated its performance.
+
+SKILLS
+Python, SQL, Excel, Power BI, Pandas, NumPy, Matplotlib, Scikit-learn, data analysis, statistics, communication, problem solving.
