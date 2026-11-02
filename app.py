@@ -9,7 +9,7 @@ from src.analyzer import analyze_match, build_report
 
 st.set_page_config(
     page_title="MatchWise | AI Resume Analyzer",
-    page_icon="🎯",
+    page_icon=str(Path(__file__).parent / "assets" / "favicon.png"),
     layout="wide",
     initial_sidebar_state="expanded",
 )
@@ -62,10 +62,10 @@ section[data-testid="stSidebar"] {
 section[data-testid="stSidebar"] .block-container { padding-top: 1.6rem; }
 .brand { display:flex; align-items:center; gap:.7rem; margin-bottom:.2rem; }
 .brand-mark {
-  width:40px; height:40px; border-radius:12px; background: var(--grad);
-  display:grid; place-items:center; font-size:1.25rem;
+  width:40px; height:40px; border-radius:12px; display:grid; place-items:center;
   box-shadow: 0 8px 24px -6px rgba(139,124,255,.7);
 }
+.brand-mark svg { display:block; border-radius:12px; }
 .brand-name { font-size:1.25rem; font-weight:800; letter-spacing:-.03em; }
 .brand-tag { color: var(--muted); font-size:.8rem; margin:0 0 .4rem 0; }
 .side-h { font-size:.7rem; letter-spacing:.14em; text-transform:uppercase; color: var(--muted); font-weight:700; margin:1.2rem 0 .7rem 0; }
@@ -374,7 +374,7 @@ def bars_html(similarity: float, coverage: float) -> str:
 # ----------------------------------------------------------------------------
 with st.sidebar:
     st.markdown(
-        '<div class="brand"><div class="brand-mark">🎯</div><div class="brand-name">MatchWise</div></div>'
+        '<div class="brand"><div class="brand-mark"><svg width="40" height="40" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"> <defs> <linearGradient id="mw-bg" x1="0" y1="0" x2="1" y2="1"> <stop offset="0" stop-color="#8B7CFF"/><stop offset=".55" stop-color="#4EA8FF"/><stop offset="1" stop-color="#2DE1C2"/> </linearGradient> </defs> <rect width="64" height="64" rx="15" fill="url(#mw-bg)"/> <path d="M19 12h19l9 9v27a4 4 0 0 1-4 4H19a4 4 0 0 1-4-4V16a4 4 0 0 1 4-4z" fill="#fff"/> <path d="M38 12l9 9h-6a3 3 0 0 1-3-3z" fill="#B9C4FF"/> <rect x="20" y="26" width="13" height="3.2" rx="1.6" fill="#8B7CFF"/> <rect x="20" y="33" width="18" height="3.2" rx="1.6" fill="#C5CAE6"/> <rect x="20" y="40" width="10" height="3.2" rx="1.6" fill="#C5CAE6"/> <circle cx="45" cy="45" r="11" fill="#0B0D18"/> <circle cx="45" cy="45" r="9" fill="#2DE1C2"/> <path d="M40.2 45.2l3.3 3.3 6.2-6.6" fill="none" stroke="#0B0D18" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/> </svg> </div><div class="brand-name">MatchWise</div></div>'
         '<p class="brand-tag">Resume intelligence, explained.</p>'
         '<div class="side-h">How it works</div>'
         '<div class="step"><div class="step-n">1</div><div class="step-t"><b>Extract</b> text from your resume.</div></div>'
