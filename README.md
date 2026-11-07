@@ -120,7 +120,7 @@ MatchWise is built to be **explainable, private, and honest**:
 
 ---
 
-## How it works (30-second version)
+## How it works 
 
 1. **Input** - you upload or paste a resume and paste a job description.
 2. **Validate** - each document must contain at least 30 characters of real text.
