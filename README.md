@@ -21,7 +21,6 @@ and produces practical, honest improvement suggestions, all running **locally**,
 
 <img src="docs/screenshot.png" alt="MatchWise - match score gauge, score breakdown and matched / missing skill chips" width="880">
 
-<sub>Replace <code>docs/screenshot.png</code> with your own screenshot (or <code>docs/demo.gif</code>) - it renders automatically here and on GitHub.</sub>
 
 <br><br>
 
