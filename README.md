@@ -815,23 +815,6 @@ PDF, DOCX and TXT uploads, or pasted text. The job description is always pasted.
 
 ---
 
-## Talking points for interviews
-
-- **Explainable scoring** - why a two-part, weighted score (similarity plus coverage) is more honest than a single opaque number, and how the weights are exposed in the UI.
-- **TF-IDF and cosine similarity** - what the vectors represent, why unigrams and bigrams help, why cosine similarity ignores document length, and the limits of fitting IDF on only two documents.
-- **Skill extraction design** - dictionary versus ML-based NER, alias normalization, word-boundary regex, and the `excel` / `react` ambiguity guard born from false positives.
-- **Graceful fallback** - why the score falls back to similarity when the job lists no recognized skills instead of reporting a misleading zero.
-- **Separation of concerns** - a UI-free engine that is unit-tested and reusable from a CLI, notebook or API.
-- **Responsible AI framing** - disclaimers, "not detected" instead of "you lack this", and suggestions that explicitly discourage keyword stuffing or fabricated experience.
-- **Privacy by design** - fully local processing with no third-party AI calls on sensitive documents.
-- **Evaluation next steps** - how you would measure skill-extraction precision and recall, and compare TF-IDF against sentence embeddings.
-
-### Suggested resume project entry
-
-**MatchWise - NLP-Based Resume & Job Description Matcher**
-Built a Streamlit application that compares resumes with job descriptions using TF-IDF vectorization and cosine
-similarity. Implemented an alias-based skill extractor with ambiguity handling, weighted match scoring,
-missing-skill analysis and downloadable feedback reports using Python and scikit-learn.
 
 <br>
 
